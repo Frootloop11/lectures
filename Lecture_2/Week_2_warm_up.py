@@ -20,10 +20,10 @@
 #     average = total / number_of_people
 #     print(average)
 
-# name = "Thomas"
-# for i in range(0, 130, 40):
-#     print("{1:8} {0:3}".format(i, name[i:]))
+name = "Thomas"
+for i in range(0, 130, 40):
+    print("{1:8} {0:3}".format(i, name[i:]))
 
-name = "Thomas Bennett"
-for i, character in enumerate(name):
-    print("{:2} = {} ({:3})".format(i, character))
+# name = "Thomas Bennett"
+# for i, character in enumerate(name):
+#     print("{:2} = {} ({:3})".format(i, character))
